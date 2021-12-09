@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Konkatenacja Stringow</title>
+</head>
+<body>
+    <form>
+        <label for="fname">Podaj w skali 1 do 10 jak mocno mnie kochasz.</label>
+        <input type="number" id="liczba" name="liczba"><br><br>
+      </form>
+    <button onclick="polaczNapis()">Sprawdź</button>
+<script>
+    function polaczNapis() {
+    let pobranaDana = document.getElementById("liczba").value;
+    let pierwszyNapis = "kocham kotka";
+    let drugiNapis = "bardzo mocno";
+    let trzeciNapis = "i namiętnie";
+    console.log(pierwszyNapis + " " + drugiNapis + " " + trzeciNapis + "w skali" + " " + pobranaDana );
+    }
+
+    
+
+
+</script>  
+</body>
+</html>
